@@ -1,0 +1,91 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Weather Website</title>
+</head>
+
+<body>
+
+  <!-- <section id="home">
+    <div class="mask">
+      <nav class="navbar navbar-dark bg-dark">
+        <div class="container px-5">
+          <a class="navbar-brand fs-3" href="#"><i class="fas fa-cloud text-white me-2"></i>Weather</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end bg-dark" tabindex="-1" id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title navbar-brand fs-3" id="offcanvasNavbarLabel">Weather</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">News</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Live cameras</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Photos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container mt-5 px-5">
+        <form class="d-flex justify-content-center align-items-center">
+          <input class="form-control bg-dark rounded-pill text-white p-3 me-2" type="text" id="search"
+            placeholder="Find your location...">
+          <button class="bg-primary py-3 px-5 border-0 rounded-pill text-white ms-2" type="submit">Find</button>
+        </form>
+
+        <div class="card-group" id="forecast">
+          
+        </div>
+      </div>
+
+    </div>
+  </section> -->
+
+  <div class="site-content">
+
+    <div class="hero" data-bg-image="images/banner.png">
+      <div class="container">
+        <form class="find-location">
+          <input type="text" placeholder="Find your location..." id="search">
+          <input type="button" value="Find" id="submit">
+        </form>
+
+      </div>
+    </div>
+    <div class="forecast-table">
+      <div class="container">
+        <div class="forecast-container" id="forecast">
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
